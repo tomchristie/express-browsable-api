@@ -4,7 +4,7 @@
 
 ## Motivation
 
-Web APIs that can render as HTML when accessed in a web browser present a more usable, universal and accessible interface.
+Web APIs that can render as HTML when accessed in a web browser present a more usable, universal, and accessible interface.
 
 The [Django REST framework](http://www.django-rest-framework.org) project is a current example of this, but I believe that it would be beneficial to see the practice extend into other languages and frameworks.
 
@@ -18,7 +18,7 @@ The components we require in order to achieve this:
 
 ## Installation
 
-Clone the repository, install the dependancies and start the server:
+Clone the repository, install the dependancies, and start the server:
 
     git clone git@github.com:tomchristie/express-browsable-api.git
     cd express-browsable-api
