@@ -1,12 +1,12 @@
 # Express Browsable API
 
-*A demonstration of using content negotiation to render browsable Web APIs in Node/Express.*
+*A demonstration of using content negotiation to render browsable Web APIs in Node.js / Express.*
 
 ## Motivation
 
 Web APIs that can render as HTML when accessed in a web browser present a more usable, universal and accessible interface.
 
-The Django REST framework project is a current example of this, but I believe that it would be beneficial to see the practice extend into other languages and frameworks.
+The [Django REST framework](http://www.django-rest-framework.org) project is a current example of this, but I believe that it would be beneficial to see the practice extend into other languages and frameworks.
 
 This project demonstrates creating a Web browsable API in Node.js, using the Express micro-framework.
 
@@ -71,3 +71,28 @@ Some thoughts on extending the functionality of the project…
 * Use the the response `Allow` header to determine which methods to display.
 * Add support for authentication headers to be set be the client which are persisted across requests.
 * Render the application response headers in the HTML content.
+
+## License
+
+Copyright &copy; 2015, Tom Christie
+All rights reserved.
+
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions are met:
+
+Redistributions of source code must retain the above copyright notice, this
+list of conditions and the following disclaimer.
+Redistributions in binary form must reproduce the above copyright notice, this
+list of conditions and the following disclaimer in the documentation and/or
+other materials provided with the distribution.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND
+ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
+WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE
+FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
+SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER
+CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
+OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
