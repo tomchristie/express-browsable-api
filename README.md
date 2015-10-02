@@ -2,8 +2,18 @@
 
 *A demonstration of using content negotiation to render browsable Web APIs in Node/Express.*
 
+## Motivation
+
+Web APIs that can render as HTML when accessed in a web browser present a more usable, universal and accessible interface.
+
+The Django REST framework project is a current example of this, but I believe that it would be beneficial to see the practice extend into other languages and frameworks.
+
+This project demonstrates creating a Web browsable API in Node.js, using the Express micro-framework.
+
+The components we require in order to achieve this:
+
 * A content negotiation middleware that renders either `text/html` or `application/json` depending on the client `Accept` header.
-* A template for rendering the HTML responses.
+* A template for rendering the HTML responses, along with API controls.
 * The [ajax-form](https://github.com/tomchristie/ajax-form/) library for supporting method and content type overriding on HTML forms.
 
 ## Installation
