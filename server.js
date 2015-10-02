@@ -65,7 +65,7 @@ var contentNegotiation = function (req, res, next) {
             useHtml = true
             break
         }
-	}
+    }
     res.sendData = function (data) {
         var body = JSON.stringify(data, null, '    ')
         if (useHtml) {
