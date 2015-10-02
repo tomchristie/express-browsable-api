@@ -71,6 +71,7 @@ Some thoughts on extending the functionality of the project…
 * Use the the response `Allow` header to determine which methods to display.
 * Add support for authentication headers to be set be the client which are persisted across requests.
 * Render the application response headers in the HTML content.
+* Hyperlink any URLs in the HTML content or relation headers to enhance the browsability of APIs that use hyperlinked resources.
 
 ## License
 
