@@ -1,0 +1,12 @@
+div.controls {
+    margin-top: 20px;
+}
+
+div.controls button, div.controls a {
+    float: right;
+    margin: 0 5px;
+}
+
+form div.controls {
+    height: 30px;
+}

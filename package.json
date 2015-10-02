@@ -1,0 +1,17 @@
+{
+  "name": "express-browsable-api",
+  "version": "0.0.0",
+  "description": "Installation:",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Tom Christie <tom@tomchristie.com> (https://twitter.com/_tomchristie)",
+  "license": "BSD-2-Clause",
+  "dependencies": {
+    "express": "~4.13.3",
+    "express-handlebars": "~2.0.1",
+    "body-parser": "~1.14.1"
+  }
+}
