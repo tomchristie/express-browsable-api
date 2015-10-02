@@ -8,6 +8,15 @@
 
 ## Installation
 
+Clone the repository, install the dependancies and start the server:
+
+    git clone git@github.com:tomchristie/express-browsable-api.git
+    cd express-browsable-api
+    npm install
+    node server.js
+
+The service will now be running on `http://127.0.0.1:3000`
+
 ## Demonstration
 
 The example server will respond to any route, returning information on the request method, headers, and any JSON content in the request body, if it exists.
