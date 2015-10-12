@@ -87,8 +87,10 @@ var errorHandler = function(err, req, res, next) {
     res.status(500).sendData({'error': err.stack.split(':')[0]});
 }
 
+app.engine('handlebars', exphbs({
+    defaultLayout: 'layout'
+}))
 
-app.engine('handlebars', exphbs())
 app.set('view engine', 'handlebars')
 app.use(contentNegotiation)
 app.use(bodyParser.json())
